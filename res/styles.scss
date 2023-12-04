@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: gray;
+	padding: 1em 0;
+	.container {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0;
+	}
+	ul {
+		display: flex;
+		flex-direction: row;
+		gap: 2em;
+		list-style: none;
+	}
+}
+
+.container {
+	max-width: 1024px;
+	margin: auto;
+	margin-top: 1em;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 12px;
+}

@@ -1,0 +1,15 @@
+- Separar el código en archivos parciales nos ayuda a evitar código repetido en distintas instancias de nuestra aplicación, haciéndolo también más mantenible (si hay que editarlo se hace en un único lugar, y no buscándolo en cada sección).
+
+- Normalmente los archivos parciales se los suele identificar con un _ (guión bajo) anteponiendo su nombre, por ejemplo _footer.php o _header.php. No es una regla, pero está bien visto para diferenciarlos a simple vista, sin necesidad de abrirlos.
+
+- En el _header.php usé unas etiquetas distintas de php ==> <?= ?>
+    - son etiquetas alternativas, las cuales siempre van a imprimir los strings que tengan dentro.
+    - son el equivalente a hacer lo siguiente:
+
+        <?php echo 'string'; ?>
+
+        ESTO DE ARRIBA ES IGUAL A 
+
+        <?= 'string' ?>
+
+    - básicamente, un shorthand para un echo.
